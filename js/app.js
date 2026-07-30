@@ -2,7 +2,7 @@
 
 // 1. Dichiarazione e inizializzazione delle variabili di profilo
 const nome = "Christian";
-const eta = 32;
+const eta = 39;
 const lavoro = "sviluppatore"
 
 // 2. CONCATENAZIONE CLASSICA (Operatore +)
@@ -13,3 +13,8 @@ console.log(textcontatenato);
 
 // 3. TEMPLATE LITERALS (Interpolazione di catene con backticks)
 // Struttura più chiara e leggibile utilizzando la sintassi ${variable}
+const textTemplateLiteral = `Mi chiamo ${nome}, ho ${eta} anni e la mia professione è ${lavoro}.`;
+console.log("Risultato con Template Literal");
+console.log(textTemplateLiteral);
+
+// 4. CALCOLI NUMERICI E OPERAZIONI ARITMETICHE
