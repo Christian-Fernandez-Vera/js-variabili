@@ -19,5 +19,11 @@ console.log(textTemplateLiteral);
 
 // 4. CALCOLI NUMERICI E OPERAZIONI ARITMETICHE
 const prezzoProdotto = 49.99;
-const quantità = 23;
+const quantità = 3;
 const subtotale = prezzoProdotto * quantità;
+const sconto = 5.50;
+const totale = subtotale - sconto;
+
+console.log("--- Operazioni Aritmetiche ---");
+console.log(`Subtotale del carrelo: $ ${subtotale}`);
+console.log(`Totale con sconto: $ ${totale}`);
