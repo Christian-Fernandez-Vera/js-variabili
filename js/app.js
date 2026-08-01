@@ -27,3 +27,7 @@ const totale = subtotale - sconto;
 console.log("--- Operazioni Aritmetiche ---");
 console.log(`Subtotale del carrelo: $ ${subtotale}`);
 console.log(`Totale con sconto: $ ${totale}`);
+
+// Verifica della coercizione e ispezione dei tipi (Typeof)
+console.log("Tipo di dato di 'eta':", typeof eta); //number
+console.log("Risultato formattato con .toFixed(2):", totale.toFixed(2)); //string formattato
