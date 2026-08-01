@@ -18,3 +18,6 @@ console.log("Risultato con Template Literal");
 console.log(textTemplateLiteral);
 
 // 4. CALCOLI NUMERICI E OPERAZIONI ARITMETICHE
+const prezzoProdotto = 49.99;
+const quantità = 23;
+const subtotale = prezzoProdotto * quantità;
